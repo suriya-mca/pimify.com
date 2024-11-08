@@ -47,7 +47,7 @@ function Hero() {
                   <div class="screenshot-container">
                     <div class="corner-shine"></div>
                     <img
-                      src="public/pim1.png"
+                      src="pim1.png"
                       alt="Pimify Dashboard"
                       class="screenshot"
                     />
