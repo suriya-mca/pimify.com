@@ -1,4 +1,5 @@
 import { onMount } from 'solid-js';
+import pimImage from '../assets/pim.png';
 
 function Hero() {
   onMount(() => {
@@ -47,7 +48,7 @@ function Hero() {
                   <div class="screenshot-container">
                     <div class="corner-shine"></div>
                     <img
-                      src="./public/pim1.png"
+                      src={pimImage}
                       alt="Pimify Dashboard"
                       class="screenshot"
                     />
